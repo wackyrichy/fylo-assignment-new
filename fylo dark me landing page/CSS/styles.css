@@ -1,0 +1,539 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 14px;
+}
+
+body {
+    font-size: 14px;
+    background-color:black;
+    font-family: 'open sans', sans-serif;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin: 2rem auto;
+    position: relative;
+}
+.header a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 10px;
+}
+
+.header .links :hover{
+    font-size: 16px;
+}
+.header img{
+    width: 20%;
+}
+
+.header .links a img {
+    width: 80%;
+    height: auto;
+}
+
+.header .links {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.main {
+    text-align: center;
+    padding: 2rem;
+    position: relative;
+}
+
+.main img {
+    width: 100%;
+
+}
+
+.main h2 {
+    color: rgb(194, 189, 183);
+    max-width: 22rem;
+    font-size: 2rem;
+    margin: 2rem auto;
+}
+
+.main h3 {
+    color: rgb(194, 189, 183);
+    max-width: 22rem;
+    font-size: 1rem;
+    margin: 2rem auto;
+}
+
+
+button {
+    font-size: 1rem;
+    border: none;
+    border-radius: 50px;
+    padding: 1.2rem 7.5rem;
+    background-color: turquoise;
+    cursor: pointer;
+}
+button a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 14px;
+    border: none;
+}
+
+button:hover {
+    background-color: aquamarine;
+}
+
+
+.main2 {
+  padding: 2rem 0;
+  text-align: center;
+}
+
+.main2 div {
+    max-width: 23rem;
+    margin: 0 auto;
+}
+.main2 > div > h2 {
+    color: #fff;
+    padding: 1rem 0;
+}
+
+.main2 > div > p {
+    color: whitesmoke;
+    padding: 1rem 0;
+}
+
+.main2 img {
+    padding: 1rem 0;
+}
+
+.main3 {
+    padding: 2rem;
+}
+
+.main3 h2 {
+    color: #fff;
+    font-family: sans-serif;
+    margin-bottom: 1rem;
+}
+
+.main3 p {
+    max-width: 30rem;
+    color: #fff;
+    margin-bottom: 1rem;
+}
+
+.main3 img {
+    width: 100%;
+    margin-bottom: 4rem;
+}
+
+.main3 span img{
+    width: 2.5rem;
+    margin-bottom: 0;
+    padding: 0 0.5rem;
+}
+
+.main3 span a {
+    padding: 1rem 0;
+}
+
+.main5 {
+    padding: 2rem;
+    margin: 0 10%;
+}
+
+.main6 {
+    background-color: black;
+    border-radius: 10px;
+    margin: 1.5rem auto;
+    padding: 2.5rem 2.5rem;
+    color: rgb(200, 200, 200);
+    max-width: 35rem;
+    background-color: hsl(219, 30%, 18%);
+}
+
+.main6 img {
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+}
+
+.card {
+    display: flex;
+    margin: 20px 0;
+    background-color: hsl(219, 30%, 18%);
+}
+.early {
+    border: 2px solid black;
+    background-color: hsl(218, 28%, 13%);
+    padding: 2rem;
+    margin: auto 2.5rem;
+    padding-bottom: 5rem;
+    text-align: center;
+    color: rgb(200, 200, 200);
+    border-radius: 25px;
+}
+.early h2 {
+    margin: 20px 0;
+}
+.early p {
+    margin: 20px 0;
+}
+.early input {
+    width: 100%;
+    border-radius: 50px;
+    padding: 1.2rem 1rem;
+    border: none;
+    cursor: auto;
+}
+.early2 input:focus {
+    outline: none;
+}
+
+
+.early2 button {
+    width: 100%;
+    padding: 1.2rem 0;
+    margin-top: 1.5rem;
+}
+
+.footer{
+    margin: 20px 100px;
+}
+
+.footer1 {
+    margin: 3rem;
+    width: 85%;
+}
+.footer2 {
+    width: 100%;
+    color: #fff;
+    display: flex;
+    line-height: 1.5rem;
+    word-spacing: .50rem;
+    margin: 3rem 0;
+}
+
+.footer2 img {
+    margin-right: 2rem;
+}
+
+.footer3 {
+    width: 100%;
+    color: #fff;
+    display: flex;
+    line-height: 1.5rem;
+    word-spacing: .50rem;
+    margin: 3rem 0;
+   
+}
+.footer3 img{
+    margin-right: 2rem;
+}
+.f1 {
+    display: flex;
+    margin-bottom: 10px;
+    color: #fff;
+}
+.f2 {
+    display: flex;
+    color: #fff;
+}
+
+.links1{
+    width: 100%;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    line-height: 1.5rem;
+    word-spacing: .50rem;
+    margin: 3rem;
+}
+
+.links1 a {
+    text-decoration: none;
+    color: #fff;
+    margin-bottom: 1.5rem;
+}
+
+.links2 {
+    width: 100%;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    line-height: 1.5rem;
+    word-spacing: .50rem;
+    margin: 3rem;
+
+}
+
+.links2 a {
+    text-decoration: none;
+    color: #fff;
+    margin-bottom: 1.5rem;
+}
+
+.socials {
+    display: flex;
+    color: #fff;
+    
+}
+i {
+    margin-right: 10px;
+    font-size: 30px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+}
+
+/* For Tablet screens */
+
+@media (min-width: 1020px) {
+    .header {
+        width: 85%;
+        margin: 2rem auto;
+    }
+
+    .header img{
+        width: 20%;
+    }
+
+    .header .links {
+        width: 40%;
+    } 
+
+    .main img {
+        width: 50%;
+    }
+
+    .main {
+        padding: 5rem 0;
+    }
+
+    .main h2, p {
+        max-width: 45rem;
+        margin: 1rem auto;
+    }
+
+    .main2 h2 {
+        font-size: 2rem;
+        padding: auto 10rem;
+    }
+
+    .main2 p {
+        font-size: 1.2rem;
+        line-height: 2rem;
+    }
+
+    .main2 div {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .main3 div {
+        margin: 0 auto;
+    }
+}
+   
+
+@media (min-width: 1024px) {
+    button{
+        font-size: 1.25rem;
+    }
+
+    p{
+
+        font-size: 1.25rem;
+            line-height: 2.25rem;
+    }
+
+    a{
+        font-size: 1.25rem;
+        line-height: 2.25rem;
+    }
+
+    .header{
+        width: 90%;
+        margin: 2rem auto;
+    }
+
+    .header img {
+        width: 15%;
+    }
+
+    .header .links{
+        width: 30%;
+    }
+
+    .main{
+        padding: 5rem;
+        padding-top: 2rem;
+        background-position: bottom;
+    }
+
+    .main img {
+        width: 35%;
+    }
+
+    .main h2, .main p {
+        max-width: 30rem;
+        margin: 2rem auto;
+    }
+
+    .main2 {
+        padding: 5rem 0;
+        width: 90%;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .main3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        width: 70%;
+        margin: 0 auto;
+
+        padding-bottom: 4rem;
+    }
+
+    .main3 img {
+        width: 40%;
+        margin: 0 3rem;
+    }
+
+    .main3 h2 {
+        font-size: 2.5rem;
+        line-height: 3rem;
+        max-width: 35rem;
+
+        
+    }
+
+    .main3 p {
+        font-size: 1.2rem;
+        max-width: 45rem;
+    }
+
+    .main3 div {
+        padding: 4rem;
+    }
+
+    .main5 {
+        width: 90%;
+        margin: 0 auto;
+        padding: 4rem 4rem;
+
+    }
+
+    .main5 {
+        display: flex;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .main6 {
+        padding: 0 2rem;
+        margin: 1.5rem;
+    }
+
+    .main6 img{
+        width: 60%;
+        height: auto;
+    }
+
+    .card {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card p{
+        margin: 0;
+    }
+
+    .early p {
+        margin: 0 auto;
+        padding: 2rem 0;
+    }
+    .early h2 {
+        font-size: 2rem;
+    }
+
+    .early button {
+        margin: 1rem;
+        width: 70%;
+        padding: .75rem;
+    }
+
+    .early2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 40%;
+        margin: 1rem auto;
+    }
+
+    .early2 form{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .footer2 img{
+        padding: 2rem 0;
+        padding-top: 5rem;
+    }
+
+    .footer1 {
+        display: flex;
+        justify-content: space-around;
+        margin: 0 auto;
+        padding: 0;
+        width: 90%;
+    }
+
+    .footer2 {
+        margin-right: 4rem;
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer3 { 
+        margin-right: 4rem;
+       
+    }
+    .f1, .f2 {
+        display: flex;
+        align-items: center;
+    }
+
+    .socials {
+        display: flex;
+        justify-content: space-around;
+    }
+    
+
+
+
+
+
+
+}
+
